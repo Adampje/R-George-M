@@ -1,0 +1,29 @@
+#footer{
+    min-height: 4em;
+    background-color:rgba(245, 240, 240, 0.795);
+    color: black;
+    text-align: center;
+   
+}
+
+#banner{
+    width: 1920px;
+    height: 150px;
+}
+
+.contact-text{
+    text-align: center;
+}
+
+.cuisine{
+    text-align: center;
+    height: 60%;
+}
+
+.type-restaurant{
+    text-align: center;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
