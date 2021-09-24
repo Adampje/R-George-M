@@ -1,3 +1,3 @@
 <div id="footer">  
-    == copyright georgemarina == 
+    == copyright georgemarina 2021 == 
 </div>
