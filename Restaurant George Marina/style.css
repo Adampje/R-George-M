@@ -1,6 +1,5 @@
 #footer{
     position:fixed;
-    
     bottom: 0;
     height: 30px;
     width:100%;
@@ -26,19 +25,39 @@
     max-width: 400px;
     height: auto;
     margin-left: 4rem;
+    font-family:  'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;;
+}
+#cuisine-titel{
+    margin-left: 4rem;
+    margin-top: -29.5rem;
+    max-width: 400px;
+    text-align: left;
+    height: auto;
+    margin-right: auto;
+    font-family:  'Chalkboard SE', 'Comic Neue', sans-serif;;
 }
 
 .type-restaurant{
+    margin-left: auto;
+    margin-top: 0rem;
+    text-align: left;
+    max-width: 400px;   
+    height: auto;
+    margin-right: 4rem;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;;
+}
+#type-restaurant-titel{
     margin-left: auto;
     margin-top: -14.5rem;
     text-align: left;
     max-width: 400px;   
     height: auto;
     margin-right: 4rem;
+    font-family: 'Chalkboard SE', 'Comic Neue', sans-serif;;
 }
 #carouselExampleFade{
     max-width: 750px;   
-    margin-top: -14.5rem;
+    margin-top: -12rem;
     margin-left: 33rem;
 }
 
