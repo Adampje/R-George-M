@@ -26,12 +26,12 @@
     <div class="col-sm">
     <img src="img\george1.png" alt="george1" style="width:1000px;">
     </div>
-    <div class="col-sm">
+    <div id="text">
     Vanaf kleins af aan had ik een droom om een restaurant te openen met mijn broer.
 
-Onze doel is om zoveel mogelijk mensen proberen te voeden tegen een betaalbare prijs, de reden hiervoor is omdat ik en mijn broer het krap hadden sinds kleins af aan en willen ook de mensen voeden die het niet zo breed hebben.
+    Onze doel is om zoveel mogelijk mensen proberen te voeden tegen een betaalbare prijs, de reden hiervoor is omdat ik en mijn broer het krap hadden sinds kleins af aan en willen ook de mensen voeden die het niet zo breed hebben.
 
-We zijn begonnen in 2013 en sinds dien hebben we veel positieve reacties gekregen, wat ervoor zorgte dat we een artikel kregen in de Parabool.
+    We zijn begonnen in 2013 en sinds dien hebben we veel positieve reacties gekregen, wat ervoor zorgte dat we een artikel kregen in de Parabool.
 
   </div>
 </div>
