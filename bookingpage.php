@@ -13,8 +13,8 @@
 <p STYLE="font-family: Arial;">With our great and well trained best of the best staff, we from George Marina </p>
 <p STYLE="font-family: Arial;">can promise you a guaranteed succesful fancy lunch or dinner.</p>
 
-<H3 STYLE="font-family: Arial;"> Contact </h3>
-<a STYLE="font-family: Arial;" href= "contact.php">Neem contact met ons op!</a>
+<H3 STYLE="font-family: Arial;"> Questions </h3>
+<a STYLE="font-family: Arial;" href= "contact.php">Here you can find information on how to contact our hosts!</a>
 
 </head>
 </html>
