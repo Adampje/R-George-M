@@ -9,7 +9,12 @@ hr {
 }
 
 .navbar-nav.navbar-center {
-  position: absolute;
+  
+  text-align: center;
   left: 50%;
   transform: translatex(-50%);
+}
+
+.li {
+  text-align: center;
 }

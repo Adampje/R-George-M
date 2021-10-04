@@ -12,18 +12,11 @@
 <!-- Start Content -->
 <div id="home" class="w3-content">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active text-center">
-        <a class="nav-link" href="./index.php">Dinner</a>
-      </li>
-  </div>
-</nav>
+<ul class="nav justify-content-center">
+  <li  style="color:red;font-size:30px" class="nav-item">
+    <a class="nav-link active" href="./index.php">Klik hier voor het dinner menu</a>
+  </li>
+</ul>
 
 <!-- Menu -->
 <div id="menu" class="w3-padding-top-64">
@@ -32,47 +25,41 @@
 
 <div class="w3-col l6 m6 w3-padding-large">
 
-<h4>Bread Basket</h4>
+<h4>Mandje met brood</h4>
 <p class="w3-text-grey">
-Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+Mandje met stokbrood, bagels en muffins €13</p><br>
 
-<h4>Belgian Waffle</h4>
+<h4>Vlaamse wafels</h4>
 <p class="w3-text-grey">
-Vanilla flavored batter with malted flour 7.50</p><br>
+Vlaamse wafels met poedersuiker en chocoladesaus €10.50</p><br>
 
-<h4>Scrambled eggs</h4>
+<h4>Club classic met Franse frietjes</h4>
 <p class="w3-text-grey">
-Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+Club sandwich met kipfilet, spek, ei, sla en tomaat €14</p><br>
 
-<h4>Blueberry Pancakes</h4>
+<h4>Sandwich zalm met kruidenmayonaise</h4>
 <p class="w3-text-grey">
-With syrup, butter and lots of berries 8.50</p>    
+Sandwich met mierikswortel, zalm, kruidenmayonaise, komkommer en bieslook €9,95</p>    
 <br>
-<h4>Bread Basket</h4>
-<p class="w3-text-grey">
-Assortment of fresh baked fruit breads and muffins 5.50</p><br>
 
-<h4>Belgian Waffle</h4>
+<h4>American pancakes</h4>
 <p class="w3-text-grey">
-Vanilla flavored batter with malted flour 7.50</p><br>
+American pancakes met maple syrup en een blokje boter €11</p><br>
 
-<h4>Scrambled eggs</h4>
+<h4>Roerei</h4>
 <p class="w3-text-grey">
-Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+Met geroosterde rode peper, knoflook en lente ui €8,50</p><br>
 
-<h4>Blueberry Pancakes</h4>
+<h4>Avocado toast</h4>
 <p class="w3-text-grey">
-With syrup, butter and lots of berries 8.50</p>    
+Avodado toast met feta en granaatappel €12 <br>(Ook vegan beschikbaar)</p>    
 
 </div>
 
 <div class="w3-col l6 m6 w3-padding-large">
-<img src="./georgemarina2.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
+<img src="./brusselse-wafels-met-chocoladesaus.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
 </div>
 
-<div class="w3-col l6 m6 w3-padding-large">
-<img src="./georgemarina3.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
-</div>
 
 </div>
 

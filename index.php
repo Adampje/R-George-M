@@ -12,18 +12,11 @@
 <!-- Start Content -->
 <div id="home" class="w3-content">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active text-center">
-        <a class="nav-link" href="./lunch.php">Lunch</a>
-      </li>
-  </div>
-</nav>
+<ul class="nav justify-content-center">
+  <li  style="color:red;font-size:30px" class="nav-item">
+    <a class="nav-link active" href="./lunch.php">Klik hier voor het lunch menu</a>
+  </li>
+</ul>
 
 <!-- Menu -->
 <div id="menu" class="w3-padding-top-64">
@@ -34,35 +27,35 @@
 
 <h4>Caeser salad</h4>
 <p class="w3-text-grey">
-Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+Met kip, ansjovis en een perfect ei €17,50</p><br>
 
-<h4>Belgian Waffle</h4>
+<h4>Niçoise salad</h4>
 <p class="w3-text-grey">
-Vanilla flavored batter with malted flour 7.50</p><br>
+Met verse tonijn €22</p><br>
 
-<h4>Scrambled eggs</h4>
+<h4>Kale - avocado salad </h4>
 <p class="w3-text-grey">
-Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+Met geroosterde maïs en yuzu dressing (Vegan) €16</p><br>
 
-<h4>Blueberry Pancakes</h4>
+<h4>Salade riche</h4>
 <p class="w3-text-grey">
-With syrup, butter and lots of berries 8.50</p>    
+Met kreeft, gerookte zalm, ei, tartaar steak en foie gras €26</p>    
 <br>
-<h4>Bread Basket</h4>
+<h4>Bistro burger</h4>
 <p class="w3-text-grey">
-Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+Spek en kaas €19,50</p><br>
 
-<h4>Belgian Waffle</h4>
+<h4>Kalfsschnitzel</h4>
 <p class="w3-text-grey">
-Vanilla flavored batter with malted flour 7.50</p><br>
+€21,50</p><br>
 
-<h4>Scrambled eggs</h4>
+<h4>Beyond burger</h4>
 <p class="w3-text-grey">
-Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+Met franse frietjes en groene salade (Vegan) €18</p><br>
 
-<h4>Blueberry Pancakes</h4>
+<h4>Gegrilde groene asperges</h4>
 <p class="w3-text-grey">
-With syrup, butter and lots of berries 8.50</p>    
+Met gepocheerd ei, zwarte truffels, Hollandaise saus en noten €17</p>    
 
 </div>
 
