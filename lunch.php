@@ -20,7 +20,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active text-center">
-        <a class="nav-link" href="./lunch.php">Lunch</a>
+        <a class="nav-link" href="./index.php">Dinner</a>
       </li>
   </div>
 </nav>
@@ -32,7 +32,7 @@
 
 <div class="w3-col l6 m6 w3-padding-large">
 
-<h4>Caeser salad</h4>
+<h4>Bread Basket</h4>
 <p class="w3-text-grey">
 Assortment of fresh baked fruit breads and muffins 5.50</p><br>
 
