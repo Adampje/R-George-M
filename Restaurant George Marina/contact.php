@@ -14,3 +14,4 @@
 <small style=" font-family:'Chalkboard SE', 'Comic Neue', sans-serif;;"> Elke dag geopend vanaf 10:00 tot 00:00 </small>
 
 </div>
+

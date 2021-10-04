@@ -39,7 +39,6 @@
       <div class="row">
         <div class="col-12">
         <?php include("./content.php"); ?>
-        <h3 id="cuisine-titel">Cuisine</h3>
         </div>
       </div>
     </section>

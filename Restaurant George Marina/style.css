@@ -15,51 +15,30 @@
 
 .contact-text{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
+}
+#restaurantimg{
+    max-height: 300px;
+    margin-top: 1rem;
+    margin-left: 34%;
 }
 
 .cuisine{
-    margin-right: auto;
-    margin-top: 8rem;
+    margin-top: -16rem;
     text-align: left;
     max-width: 400px;
-    height: auto;
-    margin-left: 4rem;
+    margin-left: 0rem;
     font-family:  'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;;
-}
-#cuisine-titel{
-    margin-left: 4rem;
-    margin-top: -29.5rem;
-    max-width: 400px;
-    text-align: left;
-    height: auto;
-    margin-right: auto;
-    font-family:  'Chalkboard SE', 'Comic Neue', sans-serif;;
 }
 
 .type-restaurant{
-    margin-left: auto;
-    margin-top: 0rem;
-    text-align: left;
-    max-width: 400px;   
-    height: auto;
-    margin-right: 4rem;
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;;
-}
-#type-restaurant-titel{
-    margin-left: auto;
     margin-top: -14.5rem;
     text-align: left;
-    max-width: 400px;   
-    height: auto;
-    margin-right: 4rem;
-    font-family: 'Chalkboard SE', 'Comic Neue', sans-serif;;
+    max-width: 400px; 
+    margin-left: auto;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;;
 }
-#carouselExampleFade{
-    max-width: 750px;   
-    margin-top: -12rem;
-    margin-left: 33rem;
-}
+
 
 body {
     background-color: rgb(233, 233, 233);
