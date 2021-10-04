@@ -1,10 +1,6 @@
 body {
     background-color: lightgrey;
   }  
-
-  .container {
-    position: relative;
-  }
   
   .topright {
     position: absolute;
