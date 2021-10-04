@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<h1 STYLE="font-size: 35px; font-family: , 'Reservations', Times, serif;">Book event</h1>
+<h1 STYLE="font-size: 35px; font-family: Arial, 'Reservations', Times, serif;">Book event</h1>
 
 <img src='img/GeorgeMarina2.png' style='position:absolute; top:0; right:0;' width='100' height='100' alt='logoo'>
 
-  <hr style="height:35px;border-width:0;color:black;background-color:lightgrey">
+  <hr style="height:10px;border-width:0;color:black;background-color:white">
   <hr style="height:2px;border-width:0;color:black;background-color:black">
 
-<p> In search of an inspiring, creative meeting space that's all about quality,</p>
-<p>comfort and a relaxed atmosphere? We're here to make it happen for you. </p>
-<p>With our great and well trained best of the best staff, we from George Marina </p>
-<p>can promise you a guaranteed succesful fancy lunch or dinner.</p>
-  <link rel="stylesheet" href="booking.css">
+<p STYLE="font-family: Arial;"> In search of an inspiring, creative meeting space that's all about quality,</p>
+<p STYLE="font-family: Arial;">comfort and a relaxed atmosphere? We're here to make it happen for you. </p>
+<p STYLE="font-family: Arial;">With our great and well trained best of the best staff, we from George Marina </p>
+<p STYLE="font-family: Arial;">can promise you a guaranteed succesful fancy lunch or dinner.</p>
 
-<a href= "contact.php">Contact</a>
+<H3 STYLE="font-family: Arial;"> Contact </h3>
+<a STYLE="font-family: Arial;" href= "contact.php">Neem contact met ons op!</a>
 
 </head>
 </html>
