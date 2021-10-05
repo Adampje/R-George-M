@@ -18,11 +18,7 @@
 
 <ul class="nav justify-content-center">
   <li  style="color:red;font-size:30px" class="nav-item">
-<<<<<<< HEAD
     <a class="nav-link active" href="./index.php?content=dinner">Klik hier voor het dinner menu</a>
-=======
-    <a class="nav-link active" href="./dinner.php">Klik hier voor het dinner menu</a>
->>>>>>> bd38acadf36e6ecb9d0d7fd101b0bc5f6ea0c8e4
   </li>
 </ul>
 
