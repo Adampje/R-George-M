@@ -5,7 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="menu.css">
 <style>
+
+  
 </style>
 <body>
 
@@ -14,7 +18,11 @@
 
 <ul class="nav justify-content-center">
   <li  style="color:red;font-size:30px" class="nav-item">
+<<<<<<< HEAD
+    <a class="nav-link active" href="./index.php?content=dinner">Klik hier voor het dinner menu</a>
+=======
     <a class="nav-link active" href="./dinner.php">Klik hier voor het dinner menu</a>
+>>>>>>> bd38acadf36e6ecb9d0d7fd101b0bc5f6ea0c8e4
   </li>
 </ul>
 
@@ -57,7 +65,7 @@ Avodado toast met feta en granaatappel €12 <br>(Ook vegan beschikbaar)</p>
 </div>
 
 <div class="w3-col l6 m6 w3-padding-large">
-<img src="./brusselse-wafels-met-chocoladesaus.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
+<img src="./img\brusselse-wafels-met-chocoladesaus.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
 </div>
 
 

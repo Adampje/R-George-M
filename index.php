@@ -1,58 +1,64 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css\style.css  ">
-
-    <title>GeorgeMarina</title>
-  </head> 
-  <body>
-
-
-    <div style="border-bottom: 3px solid black; padding: 20px;">
-      <h1 style="text-indent: 20px;">ABOUT US</h1>
-      <img src='img\logoo.png' style='position:absolute; top:11px; right:20px; width: 86px;' alt='logoo' />
-    </div>
-    
-
-    <div class="container">
-  <div class="row">
-    <div class="col-sm">
-    <img src="img\george1.png" alt="george1" style="width:1000px; padding-top: 75px;">
-    </div>
-    <div id="text" style="padding-top: 100px; padding-left: 50px;">
-    
-    <div>   
-         Vanaf kleins af aan had ik een droom om een restaurant te openen met mijn broer.
-    </div>
-
-    <div style="padding-top: 25px;">
-    Ons doel is om zoveel mogelijk mensen proberen te voeden tegen een betaalbare prijs, de reden hiervoor is omdat ik en mijn broer het krap hadden sinds kleins af aan en willen ook de mensen voeden die het niet zo breed hebben.
-    </div>
-
-    <div style="padding-top: 25px;">
-    We zijn begonnen in 2013 en sinds dien hebben we veel positieve reacties gekregen, wat ervoor zorgte dat we een artikel kregen in de Parabool.
-    </div>
-
-
-
+  <!-- Bootstrap CSS -->
    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon">
+  <title>GeorgeMarina</title>
+</head>
+
+<<<<<<< HEAD
+<body>
 
 
-  </div>
-</div>
+<main>
+    <section class="container-fluid px-0">
+      <div class="row">
+        <div class="col-12">
+        <?php include("./banner.php"); ?>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid px-0">
+      <div class="row">
+        <div class="col-12">
+          <?php include("./navbar.php"); ?>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+        <?php include("./content.php"); ?>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid px-0 bottom">
+      <div class="row">
+        <div class="col-12">
+          <?php include("./footer.php"); ?>
+        </div>
+      </div>
+    </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  </main>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
+</body>
+</html>
+=======
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
@@ -60,3 +66,4 @@
     -->
   </body>
 </html>
+>>>>>>> bd38acadf36e6ecb9d0d7fd101b0bc5f6ea0c8e4

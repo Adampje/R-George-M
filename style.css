@@ -1,20 +1,45 @@
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+#footer{
+    position:fixed;
+    bottom: 0;
+    height: 30px;
+    width:100%;
+    background-color:#f5f1f1;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
-.navbar-nav.navbar-center {
-  
-  text-align: center;
-  left: 50%;
-  transform: translatex(-50%);
+#banner{
+    width: 100%;
+    height: auto;
 }
 
-.li {
-  text-align: center;
+.contact-text{
+    text-align: center;
+    margin-top: 3rem;
+}
+#restaurantimg{
+    max-height: 300px;
+    margin-top: 1rem;
+    margin-left: 34%;
+}
+
+.cuisine{
+    margin-top: -16rem;
+    text-align: left;
+    max-width: 400px;
+    margin-left: 0rem;
+    font-family:  'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;;
+}
+
+.type-restaurant{
+    margin-top: -14.5rem;
+    text-align: left;
+    max-width: 400px; 
+    margin-left: auto;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;;
+}
+
+
+body {
+    background-color: rgb(233, 233, 233);
 }

@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<<<<<<< HEAD
+<link rel="stylesheet" href="menu.css">
+=======
+>>>>>>> bd38acadf36e6ecb9d0d7fd101b0bc5f6ea0c8e4
 <style>
 </style>
 <body>
@@ -14,7 +18,11 @@
 
 <ul class="nav justify-content-center">
   <li  style="color:red;font-size:30px" class="nav-item">
+<<<<<<< HEAD
+    <a class="nav-link active" href="./index.php?content=lunch">Klik hier voor het lunch menu</a>
+=======
     <a class="nav-link active" href="./lunch.php">Klik hier voor het lunch menu</a>
+>>>>>>> bd38acadf36e6ecb9d0d7fd101b0bc5f6ea0c8e4
   </li>
 </ul>
 
@@ -60,11 +68,19 @@ Met gepocheerd ei, zwarte truffels, Hollandaise saus en noten €17</p>
 </div>
 
 <div class="w3-col l6 m6 w3-padding-large">
+<<<<<<< HEAD
+<img src="./img\georgemarina2.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
+</div>
+
+<div class="w3-col l6 m6 w3-padding-large">
+<img src="./img\georgemarina3.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
+=======
 <img src="./georgemarina2.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
 </div>
 
 <div class="w3-col l6 m6 w3-padding-large">
 <img src="./georgemarina3.jpg" class="w3-round w3-image " alt="Menu" style="width:100%">
+>>>>>>> bd38acadf36e6ecb9d0d7fd101b0bc5f6ea0c8e4
 </div>
 
 </div>
@@ -77,4 +93,8 @@ Met gepocheerd ei, zwarte truffels, Hollandaise saus en noten €17</p>
 </div>
 
 </body>
+<<<<<<< HEAD
 </html> 
+=======
+</html> 
+>>>>>>> bd38acadf36e6ecb9d0d7fd101b0bc5f6ea0c8e4
