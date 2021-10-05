@@ -33,7 +33,7 @@
     </div>
 
     <div style="padding-top: 25px;">
-    Onze doel is om zoveel mogelijk mensen proberen te voeden tegen een betaalbare prijs, de reden hiervoor is omdat ik en mijn broer het krap hadden sinds kleins af aan en willen ook de mensen voeden die het niet zo breed hebben.
+    Ons doel is om zoveel mogelijk mensen proberen te voeden tegen een betaalbare prijs, de reden hiervoor is omdat ik en mijn broer het krap hadden sinds kleins af aan en willen ook de mensen voeden die het niet zo breed hebben.
     </div>
 
     <div style="padding-top: 25px;">
