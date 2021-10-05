@@ -20,8 +20,8 @@
   <input type="submit" value="Submit">
 </form> 
 
-
+<a href= "https://www.facebook.com/George-Amsterdam-997786783679032/ ">
 <img src='img/facebook.jpg' style='position:absolute; bottom: 8px; right: 16px;' alt='facebook'>
-
-<img src='img/instagram.jpg' style='position:absolute; bottom: 8px; right: 80px;' alt='instagram'>
+<a href= "https://www.instagram.com/georgeamsterdam/">
+<img src='img/instagram.jpg' style='position:absolute; bottom: 8px; right: 80px;' alt='instagram' >
 </head>
