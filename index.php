@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\style.css  ">
 
     <title>GeorgeMarina</title>
   </head> 
@@ -24,14 +24,26 @@
     <div class="container">
   <div class="row">
     <div class="col-sm">
-    <img src="img\george1.png" alt="george1" style="width:1000px;">
+    <img src="img\george1.png" alt="george1" style="width:1000px; padding-top: 75px;">
     </div>
-    <div id="text">
-    Vanaf kleins af aan had ik een droom om een restaurant te openen met mijn broer.
+    <div id="text" style="padding-top: 100px; padding-left: 50px;">
+    
+    <div>   
+         Vanaf kleins af aan had ik een droom om een restaurant te openen met mijn broer.
+    </div>
 
+    <div style="padding-top: 25px;">
     Onze doel is om zoveel mogelijk mensen proberen te voeden tegen een betaalbare prijs, de reden hiervoor is omdat ik en mijn broer het krap hadden sinds kleins af aan en willen ook de mensen voeden die het niet zo breed hebben.
+    </div>
 
+    <div style="padding-top: 25px;">
     We zijn begonnen in 2013 en sinds dien hebben we veel positieve reacties gekregen, wat ervoor zorgte dat we een artikel kregen in de Parabool.
+    </div>
+
+
+
+   
+
 
   </div>
 </div>
