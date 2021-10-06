@@ -1,9 +1,9 @@
 
 <div >
-<img id="restaurantimg" src="img\Foto1.png" alt="restaurantfoto" class="image-fluid"  >
+<img id="restaurantimg" src="img\Foto1.png" alt="restaurantfoto" > 
 </div>
 
-<div class="cuisine" >
+<div id="cuisine" >
   
 <h3 >Cuisine</h3>
 
@@ -12,7 +12,7 @@
 
 </div>
 
-<div class="type-restaurant">
+<div id="type-restaurant">
 
 <h3 >Type Restaurant</h3>
 
