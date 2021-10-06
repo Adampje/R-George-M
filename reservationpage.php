@@ -9,11 +9,11 @@
   <hr style="height:2px;border-width:0;color:black;background-color:black">
 
 <form action="TableReservation.php">
-    <input type="submit" value="Reservate a table" />
+    <input type="submit" value="Reserve a table" />
 </form>
 
 <form action="barreservation.php">
-    <input type="submit" value="Reservate a chair at the bar" />
+    <input type="submit" value="Reserve a chair at the bar" />
 </form>
 
 
