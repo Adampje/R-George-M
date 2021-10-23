@@ -29,6 +29,9 @@
         <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=bookingpage">Book Event</a>
         </li>
+        <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=corona">Covid-19</a>
+        </li>
       </ul> 
       <ul class="navbar-nav ml-auto">
       <img src="img\GeorgeMarina.png" alt="logo" class="image-fluid" width="100px" height="100px" >
