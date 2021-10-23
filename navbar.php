@@ -2,7 +2,6 @@
 <?php
   $active = (isset($_GET["content"]))?  $_GET["content"]: "";
 ?>
-
 <nav class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container-fluid px-1">
     <a class="navbar-brand" href="./index.php?content=home">GeorgeMarina</a>
@@ -64,10 +63,11 @@
         <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=corona">Covid-19</a>
         </li>
+        
+        </ul> 
 
-    
 
-      
+
       <ul class="navbar-nav ml-auto"> 
       <?php
       if (isset($_SESSION["id"])) {
@@ -105,7 +105,6 @@
               <li class="nav-item '; echo ($active == "login")? "active": ""; echo '">
              <a class="nav-link" href="./index.php?content=login">Inloggen</a>
               </li>';
-
       }
       ?>
       <img src="img\GeorgeMarina.png" alt="logo" class="image-fluid" width="100px" height="100px" >
@@ -113,7 +112,3 @@
       </ul>
   </div>
 </nav>
-
-
-
-  
