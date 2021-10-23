@@ -61,8 +61,12 @@
         <li class="nav-item <?php echo ($active == "bookingpage")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=bookingpage">Book Event</a>
         </li>
-     
-      </ul> 
+        <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=corona">Covid-19</a>
+        </li>
+
+    
+
       
       <ul class="navbar-nav ml-auto"> 
       <?php
