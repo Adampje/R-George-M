@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
 <h1 STYLE="font-size: 35px;  font-family: Arial, 'Reservations', Times, serif;">Reserveren</h1>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<img src='img/seatingchart.png' style='position:absolute; margin-top:-14rem; right:0;' width='700' height='700' alt='logoo' />
+<img src='img/seatingchart.png' style='position:absolute; left:600px; margin-top:-3.5rem;' width='600' height='500' alt='logoo' />
 
 <form action="./create.php" method="post">
   <div class="col-12 col-sm-4">
