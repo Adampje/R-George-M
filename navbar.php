@@ -63,14 +63,16 @@
         <li class="nav-item <?php echo ($active == "corona")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=corona">Covid-19</a>
         </li>
-        <li class="nav-item <?php echo ($active == "carreer")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=carreer">Soliciteren</a>
-        </li>
         <li class="nav-item <?php echo ($active == "table-information")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=table-information">Tables</a>
         </li>
+        <li class="nav-item <?php echo ($active == "carreer")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=carreer">Soliciteren</a>
+        </li>
+        <li class="nav-item <?php echo ($active == "gallery")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=gallery">Gallery</a>
+        </li>
      
-        
         </ul> 
 
 
