@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="booking.css">
 
 <h1 STYLE="font-size: 35px; font-family: Arial, 'Reservations', Times, serif;">Book Event</h1>
+<link rel="stylesheet" href="menu.css">
 
 <p STYLE="font-family: Arial;"> In search of an inspiring, creative meeting space that's all about quality,</p>
 <p STYLE="font-family: Arial;">comfort and a relaxed atmosphere? We're here to make it happen for you. </p>

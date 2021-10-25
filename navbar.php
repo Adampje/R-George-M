@@ -54,14 +54,20 @@
         <li class="nav-item <?php echo ($active == "aboutus")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=aboutus">About us</a>
         </li>
-        <li class="nav-item <?php echo ($active == "reservationpage")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=reservationpage">Reservation</a>
+        <li class="nav-item <?php echo ($active == "reservation")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=reservation">Reservation</a>
         </li>
         <li class="nav-item <?php echo ($active == "bookingpage")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=bookingpage">Book Event</a>
         </li>
-        <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
+        <li class="nav-item <?php echo ($active == "corona")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=corona">Covid-19</a>
+        </li>
+        <li class="nav-item <?php echo ($active == "carreer")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=carreer">Soliciteren</a>
+        </li>
+        <li class="nav-item <?php echo ($active == "tableinformation")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=table-information">Table information</a>
         </li>
         <li class="nav-item <?php echo ($active == "carreer")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=carreer">Soliciteren</a>
