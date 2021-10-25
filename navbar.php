@@ -66,6 +66,9 @@
         <li class="nav-item <?php echo ($active == "tableinformation")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=table-information">Table information</a>
         </li>
+        <li class="nav-item <?php echo ($active == "gallery")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=gallery">Gallery</a>
+        </li>
         
         </ul> 
 
