@@ -63,6 +63,9 @@
         <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=corona">Covid-19</a>
         </li>
+        <li class="nav-item <?php echo ($active == "carreer")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=carreer">Soliciteren</a>
+        </li>
         
         </ul> 
 
