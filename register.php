@@ -9,7 +9,7 @@
                     <input name="email" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" autofocus >
                     <div id="emailHelp" class="form-text text-muted">Uw privacy is gegarendeerd.</div>
                 </div>               
-                <button type="submit" class="btn btn-success btn-lg btn-block">Registreer</button>
+                <button type="submit" class="btn btn-secondary btn-lg btn-block">Registreer</button>
             </form>
         </div>
         <div class="col-12 col-sm-6">
