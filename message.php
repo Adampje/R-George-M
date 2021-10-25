@@ -127,6 +127,12 @@
                   </div>';
             header("Refresh: 3; ./index.php?content=home");
         break;
+        case "solicitatie-succes" :    
+            echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                Wij hebben uw solicitatie ontvangen, wij nemen zo snel mogelijk contact met u op!
+                </div>';
+            header("Refresh: 5; ./index.php?content=carreer");
+       break;
         default:
             header("Location: ./index.php?content=home");
         break;
