@@ -63,6 +63,9 @@
         <li class="nav-item <?php echo ($active == "corona")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=corona">Covid-19</a>
         </li>
+        <li class="nav-item <?php echo ($active == "tableinformation")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=table-information">Table information</a>
+        </li>
         
         </ul> 
 
