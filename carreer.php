@@ -56,7 +56,7 @@
 
 
     <div class="name-item">
-        <input type="text" name="name" placeholder="Volledige naam*" required />
+        <input type="text" name="name" placeholder="Volledige naam*" required autofocus/>
     </div>
     <br>
     <div class="name-item">
