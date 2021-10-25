@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
 <h1 STYLE="font-size: 35px;  font-family: Arial, 'Reservations', Times, serif;">Reserveren</h1>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -11,18 +12,16 @@
 </head>
 <body>
 
-<img src='img/seatingchart.png' style='position:absolute; top:40; right:0;' width='500' height='500' alt='logoo' />
+<img src='img/seatingchart.png' style='position:absolute; margin-top:-14rem; right:0;' width='700' height='700' alt='logoo' />
 
 <form action="./create.php" method="post">
-  <div class="col">
+  <div class="col-12 col-sm-4">
     <label for="formGroupExampleInput">Voornaam</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder=". . ." 
-    id="Voornaam" name="Voornaam">
-  </div>
-  <div class="col">
+    id="Voornaam" name="Voornaam" autofocus maxlength="20" >
     <label for="formGroupExampleInput2">Achternaam</label>
     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder=". . ."
-    id="Achternaam" name="Achternaam">
+    id="Achternaam" name="Achternaam" maxlength="20">
   </div>
   <div class="form-group col-md-4">
       <label for="inputState">personen</label>
