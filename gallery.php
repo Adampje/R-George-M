@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
 
+<style>
+        #footer{
+             display: none;
+        }
+            
+ </style>
+
 <br>
 <br>
 <img src="img\gallery1.jpg" style='position:absolute; top:40; right: 30px ; width:700px' alt='gallery1'>

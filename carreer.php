@@ -3,6 +3,9 @@
 
 <head>
     <style>
+        #footer{
+             display: none;
+        }
         h1 {
             position: relative;
             text-align: center;
@@ -42,7 +45,7 @@
 
 <body>
     <br>
-    <img src="./img/georgecarreer.jpg"style='position:absolute; right:25px; top:5;' width="500" height="600" alt="">
+    
 
     <p style="  font-family: Times New Roman, Times, serif;;font-size:20px;">Ben jij iemand die graag aan het werk gaat en geniet van het blij maken van andere,<br>
         dan ben jij een persoon die wij zoeken!<br>
@@ -66,7 +69,8 @@
     <br>
     <div class="position-item">
         <div class="item">
-            <p style="right: 165px;">Voor welke positie soliciteer je?<span class="required">*</span></p>
+            <p style="margin:auto;">Voor welke positie soliciteer je?<span class="required">*</span></p>
+            <br>
             <select required>
                 <option value="1">Ober</option>
                 <option value="2">Barista</option>
@@ -79,14 +83,12 @@
         <br>
         <div class="btn-block">
             <button type="submit" href="/">Versturen</button>
+            
         <!-- <?php header("Refresh: 5; ./index.php?content=message&alert=solicatie-succes"); ?> -->
 
         </div>
 
-
-
-
-
+        <br>
 
 </body>
 
