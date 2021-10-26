@@ -25,7 +25,7 @@
 
 <img src="img\gallery7.jpg" style='position:absolute; top:1550px; right: 60px; font-size: 18px; width:600px;' alt='gallery7'>
 
-<img src="img\gallery8.jpeg" style='position:absolute; top:1920px; right: 140px; font-size: 18px; width:400px;' alt='gallery6'>
+<img src="img\gallery8.jpeg" style='position:absolute; top:1920px; right: 140px; font-size: 18px; width:500px; height:500px;' alt='gallery6'>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
