@@ -82,7 +82,7 @@
         </div>
         <br>
         <div class="btn-block">
-            <button type="submit" href="/">Versturen</button>
+        <a class="nav-link" href="./index.php?content=rootpage">Rootpage</a>
             
         <!-- <?php header("Refresh: 5; ./index.php?content=message&alert=solicatie-succes"); ?> -->
 
