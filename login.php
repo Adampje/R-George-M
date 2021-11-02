@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="register-login.css">
 
-<div class="container mt-5">
+<div class="container mt-5 ">
     <div class="row">
         <div class="col-12 col-sm-6">
 
