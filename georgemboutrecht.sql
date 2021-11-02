@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Oct 23, 2021 at 10:12 AM
+-- Generation Time: Nov 02, 2021 at 01:54 PM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -203,18 +203,42 @@ CREATE TABLE IF NOT EXISTS `register` (
   `userrole` enum('root','admin','customer','moderator') NOT NULL,
   `activated` tinyint(3) UNSIGNED NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `register`
 --
 
 INSERT INTO `register` (`id`, `email`, `password`, `userrole`, `activated`) VALUES
-(2, 'adruijter@gmail.com', '$2y$10$eoAd9qFVz4dvr7u3OD2Te.r3BFI7xhJCid823h8yOyHbf1HSoqPTe', 'customer', 0),
-(3, 'rra@mboutrecht.nl', '$2y$10$SDPRaGXfY2/pRp/MYAdUX.NYHMxaGh1hGBSm9k9YUDy1dcRynETXC', 'customer', 1),
-(18, 'moemin@georgemarina.com', '$2y$10$72uMFY.9Vz1CjW6PkHWrtuH/Kiks1DKgDLWf7kxKbMNm1/n4Fwf1G', 'customer', 1),
-(19, 'test@test', '$2y$10$PdeIrTruhAnH.omUE9N8Aeq8arXtOhtRIw99YRgsPiDkBsNrT4GAG', 'customer', 1),
-(20, 'test1@text', '$2y$10$pd0Xj7ODxrsVzQ/R6fns8e65pMyGaMdaGfYa0Jq7/4fVlHwmqcwk6', 'customer', 0);
+(21, 'c@c', '$2y$10$QvCjSznTlS9UYsBQxA1Wm.UJCl1IuPAcSidw/1lft4Pj3Oo47yJNu', 'customer', 1),
+(22, 'r@r', '$2y$10$nfa/U4IxpbyjY0rVeqEKzONq3dh6s0MlHRX4VXNYJPOkT37TjfHGW', 'root', 1),
+(23, 'm@m', '$2y$10$cWeZtxpiPDZNLDVNjWHjyOEnk8K/ZPDPPiS0tC5lAb2o7nM08H.Ry', 'moderator', 1),
+(24, 'a@a', '$2y$10$vnLShDvjZiAbCB9/X0T5TujfawvVSYwp7MXlxNoqWl/S1wTgtXquG', 'admin', 1),
+(25, 'hoi@hoi.nl', '$2y$10$u9FGjo8SgCoAmzeOzA282u4ePQgE7tOWwSMmIX/TYUKxOJW7Ac4WG', 'customer', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `reserveren`
+--
+
+DROP TABLE IF EXISTS `reserveren`;
+CREATE TABLE IF NOT EXISTS `reserveren` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Voornaam` varchar(150) NOT NULL,
+  `Achternaam` varchar(150) NOT NULL,
+  `personen` int(11) NOT NULL,
+  `tafelofbar` varchar(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `reserveren`
+--
+
+INSERT INTO `reserveren` (`id`, `Voornaam`, `Achternaam`, `personen`, `tafelofbar`) VALUES
+(9, 'Ryan', 'Lamsberg', 6, 'tafel'),
+(13, 'Moemin', 'Amhaini', 1, 'tafel');
 
 -- --------------------------------------------------------
 

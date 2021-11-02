@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <head>
     <style>
-<<<<<<< Updated upstream
-=======
-        #footer {
-            display: none;
+
+        #footer{
+             display: none;
         }
 
->>>>>>> Stashed changes
         h1 {
             position: relative;
             text-align: center;
@@ -52,23 +48,16 @@
 
 <body>
     <br>
-<<<<<<< Updated upstream
     <img src="./img/georgecarreer.jpg"style='position:absolute; right:25px; top:5;' width="500" height="600" alt="">
-=======
-
->>>>>>> Stashed changes
-
+ 
     <p style="  font-family: Times New Roman, Times, serif;;font-size:20px;">Ben jij iemand die graag aan het werk gaat en geniet van het blij maken van andere,<br>
         dan ben jij een persoon die wij zoeken!<br>
         <br>Werken bij George Marina kan op vele manieren, wij hebben
         <br>altijd belangstelling voor; obers, barmannen of barvrouwen, keukenhulp, <br>chefkok en afwasser.
     </p>
 
-
-<<<<<<< Updated upstream
-
     <div class="name-item">
-        <input type="text" name="name" placeholder="Volledige naam*" required />
+        <input type="text" name="name" placeholder="Volledige naam*" required autofocus/>
     </div>
     <br>
     <div class="name-item">
@@ -81,7 +70,8 @@
     <br>
     <div class="position-item">
         <div class="item">
-            <p style="right: 165px;">Voor welke positie soliciteer je?<span class="required">*</span></p>
+            <p style="margin:auto;">Voor welke positie soliciteer je?<span class="required">*</span></p>
+            <br>
             <select required>
                 <option value="1">Ober</option>
                 <option value="2">Barista</option>
@@ -93,16 +83,12 @@
         </div>
         <br>
         <div class="btn-block">
-            <button type="submit" href="/">Versturen</button>
+        <a class="nav-link" href="./index.php?content=rootpage">Rootpage</a>
+            
         <!-- <?php header("Refresh: 5; ./index.php?content=message&alert=solicatie-succes"); ?> -->
 
         </div>
 
-
-
-
-
-=======
     <form action="./index.php?content=carreer_script" method="post">
     <div class="container mt-5">
         <div class="center col-12 col-sm-6 name-item">
@@ -148,7 +134,9 @@
     </div>
 
     <br>
->>>>>>> Stashed changes
+
+        <br>
+
 
 </body>
 

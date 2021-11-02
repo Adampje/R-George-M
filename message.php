@@ -133,6 +133,13 @@
                 </div>';
             header("Refresh: 5; ./index.php?content=carreer");
        break;
+       case "reservatie-success" :    
+        echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+            U heeft successvol gereserveerd, wij wensen u van harte welkom.
+            </div>';
+        header("Refresh: 5; ./index.php?content=home");
+        break;
+
         default:
             header("Location: ./index.php?content=home");
         break;

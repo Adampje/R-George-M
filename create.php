@@ -18,6 +18,6 @@ $sql = "INSERT INTO `reserveren` (`id`, `Voornaam`, `Achternaam`, `personen`, `t
 // Dit is de funcit edie de query $sql via de verbinding $conn naar de database stuurt.
 mysqli_query($conn, $sql);
 
-header("Location: ./reservationcomplete.php");
+header("Location: ./index.php?content=message&alert=reservatie-success  ");
 
 ?>
