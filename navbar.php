@@ -1,15 +1,24 @@
+<style>
+<?php include 'navbar.css'; ?>
+</style>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon">
+</head>
 
 <?php
   $active = (isset($_GET["content"]))?  $_GET["content"]: "";
 ?>
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-  <div class="container-fluid px-1">
-    <a class="navbar-brand" href="./index.php?content=home">GeorgeMarina</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-      <ul class="navbar-nav">
+<nav class="navbar">
+ 
       <?php
         if ( isset($_SESSION["id"])) {
           switch ($_SESSION["userrole"]) {
@@ -38,7 +47,7 @@
           }
         } else {
           echo '<li class="nav-item'; echo (in_array($active, ["home", ""]))? "active": ""; echo '">
-                  <a class="nav-link" aria-current="page" href="./index.php?content=home">Home</a>
+                  <a class="logo" aria-current="page" href="./index.php?content=home"><img src="./img/GeorgeMarina.png"</a>
                 </li>';
         }
         ?>
@@ -116,8 +125,6 @@
               </li>';
       }
       ?>
-      <img src="img\GeorgeMarina.png" alt="logo" class="image-fluid" width="100px" height="100px" >
-      
       </ul>
   </div>
 </nav>
