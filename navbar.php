@@ -1,15 +1,12 @@
+<style>
+<?php include 'navbar.css'; ?>
+</style>
 
 <?php
   $active = (isset($_GET["content"]))?  $_GET["content"]: "";
 ?>
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-  <div class="container-fluid px-1">
-    <a class="navbar-brand" href="./index.php?content=home">GeorgeMarina</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-      <ul class="navbar-nav">
+<nav class="navbar">
+ 
       <?php
         if ( isset($_SESSION["id"])) {
           switch ($_SESSION["userrole"]) {
@@ -38,7 +35,7 @@
           }
         } else {
           echo '<li class="nav-item'; echo (in_array($active, ["home", ""]))? "active": ""; echo '">
-                  <a class="nav-link" aria-current="page" href="./index.php?content=home">Home</a>
+                  <a class="logo" aria-current="page" href="./index.php?content=home"><img src="./img/GeorgeMarina.png"</a>
                 </li>';
         }
         ?>
@@ -116,8 +113,6 @@
               </li>';
       }
       ?>
-      <img src="img\GeorgeMarina.png" alt="logo" class="image-fluid" width="100px" height="100px" >
-      
       </ul>
   </div>
 </nav>
