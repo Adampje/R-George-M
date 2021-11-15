@@ -40,12 +40,8 @@
         }
         ?>
         
-        <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=contact">Contact</a>
-        </li>
-        </li>
         <li class="nav-item <?php echo ($active == "menu")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=lunch">Menu</a>
+          <a class="nav-link" href="./index.php?content=menu">Menu</a>
         </li>
         </li>
         <li class="nav-item <?php echo ($active == "aboutus")? "active": "" ?>">
@@ -64,10 +60,14 @@
           <a class="nav-link" href="./index.php?content=table-information">Tables</a>
         </li>
         <li class="nav-item <?php echo ($active == "carreer")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=carreer">Soliciteren</a>
+          <a class="nav-link" href="./index.php?content=carreer">Solliciteren</a>
         </li>
         <li class="nav-item <?php echo ($active == "gallery")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=gallery">Gallery</a>
+        </li>
+        <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=contact">Contact</a>
+        </li>
         </li>
      
         </ul> 
