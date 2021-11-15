@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 02, 2021 at 01:54 PM
+-- Generation Time: Nov 15, 2021 at 03:13 PM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -200,10 +200,10 @@ CREATE TABLE IF NOT EXISTS `register` (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `email` varchar(300) NOT NULL,
   `password` varchar(60) NOT NULL,
-  `userrole` enum('root','admin','customer','moderator') NOT NULL,
+  `userrole` enum('root','admin','customer','moderator','kok','barman','ober') NOT NULL,
   `activated` tinyint(3) UNSIGNED NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `register`
@@ -211,10 +211,12 @@ CREATE TABLE IF NOT EXISTS `register` (
 
 INSERT INTO `register` (`id`, `email`, `password`, `userrole`, `activated`) VALUES
 (21, 'c@c', '$2y$10$QvCjSznTlS9UYsBQxA1Wm.UJCl1IuPAcSidw/1lft4Pj3Oo47yJNu', 'customer', 1),
-(22, 'r@r', '$2y$10$nfa/U4IxpbyjY0rVeqEKzONq3dh6s0MlHRX4VXNYJPOkT37TjfHGW', 'root', 1),
 (23, 'm@m', '$2y$10$cWeZtxpiPDZNLDVNjWHjyOEnk8K/ZPDPPiS0tC5lAb2o7nM08H.Ry', 'moderator', 1),
 (24, 'a@a', '$2y$10$vnLShDvjZiAbCB9/X0T5TujfawvVSYwp7MXlxNoqWl/S1wTgtXquG', 'admin', 1),
-(25, 'hoi@hoi.nl', '$2y$10$u9FGjo8SgCoAmzeOzA282u4ePQgE7tOWwSMmIX/TYUKxOJW7Ac4WG', 'customer', 1);
+(26, 'kok@student.georgemarina.nl', '$2y$10$1QQficYkKMCwCu9FWeFqvu8PaZE/Efbxy3GOQBNOzzwE2ZqNEYpFi', 'kok', 1),
+(27, 'barman@student.georgemarina.nl', '$2y$10$Oa0hVolLOF7mUBV4SzMO5eGr/Fo3LX98wgPgXQNLwPFcxFj5nyqcy', 'barman', 1),
+(28, 'ober@student.georgemarina.nl', '$2y$10$V6IC6w8qDZw5TP8jVB4Yr.BkvO2Lw9du/GjZ9jAj0rSmHDL3ndhiG', 'ober', 1),
+(29, 'r@r', '$2y$10$00H1vC1.kfIVR1LL3pO4...BtkywTTAbUORUJsAU69lPjLQS5gKL2', 'root', 1);
 
 -- --------------------------------------------------------
 
@@ -230,7 +232,7 @@ CREATE TABLE IF NOT EXISTS `reserveren` (
   `personen` int(11) NOT NULL,
   `tafelofbar` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `reserveren`
