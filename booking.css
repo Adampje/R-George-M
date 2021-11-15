@@ -1,18 +1,4 @@
-
-.container {
-    position: relative;
-
 .bottomright {
-    position: fixed;
-    bottom: -350px;
-    right: -20px;
-    size: 10px;
-  }
-  
-  .topright {
-
-.bottomright {
-
     position: absolute;
     bottom: -350px;
     right: -20px;
