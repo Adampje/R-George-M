@@ -12,24 +12,40 @@
           switch ($_SESSION["userrole"]) {
             case 'admin': 
               echo '<li class="nav-item'; echo (in_array($active, ["a-home", ""]))? "active": ""; echo '">
-                      <a class="nav-link" aria-current="page" href="./index.php?content=a-home">Home</a>
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\a-home">Home</a>
                     </li>';
             break; 
             case 'root': 
               echo '<li class="nav-item'; echo (in_array($active, ["r-home", ""]))? "active": ""; echo '">
-                      <a class="nav-link" aria-current="page" href="./index.php?content=r-home">Home</a>
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\r-home">Home</a>
                     </li>';
             break; 
             case 'moderator': 
               echo '<li class="nav-item'; echo (in_array($active, ["m-home", ""]))? "active": ""; echo '">
-                      <a class="nav-link" aria-current="page" href="./index.php?content=m-home">Home</a>
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\m-home">Home</a>
+                    </li>';
+            break; 
+            case 'kok': 
+              echo '<li class="nav-item'; echo (in_array($active, ["k-home", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\k-home">Home</a>
+                    </li>';
+            break; 
+            case 'barman': 
+              echo '<li class="nav-item'; echo (in_array($active, ["b-home", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\b-home">Home</a>
+                    </li>';
+            break; 
+            case 'ober': 
+              echo '<li class="nav-item'; echo (in_array($active, ["o-home", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\o-home">Home</a>
                     </li>';
             break; 
             case 'customer': 
               echo '<li class="nav-item'; echo (in_array($active, ["c-home", ""]))? "active": ""; echo '">
-                      <a class="nav-link" aria-current="page" href="./index.php?content=c-home">Home</a>
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\c-home">Home</a>
                     </li>';
             break; 
+           
             default:
             break;
           }
@@ -79,23 +95,38 @@
       if (isset($_SESSION["id"])) {
        switch($_SESSION["userrole"]) {
         case 'admin': 
-          echo '<li class="nav-item'; echo ($active == "rootpage") ? "$active": ""; echo '">
-                   <a class="nav-link" href="./index.php?content=a-users">Users</a>
+          echo '<li class="nav-item'; echo ($active == "adminpage") ? "$active": ""; echo '">
+                   <a class="nav-link" href="./index.php?content=User-Paginas\a-users">Users</a>
                 </li>';
         break;
         case 'root': 
           echo '<li class="nav-item'; echo ($active == "rootpage") ? "$active": ""; echo '">
-                   <a class="nav-link" href="./index.php?content=rootpage">Rootpage</a>
+                   <a class="nav-link" href="./index.php?content=User-Paginas\rootpage">Rootpage</a>
                 </li>';
         break;
         case 'moderator': 
           echo '<li class="nav-item'; echo ($active == "moderatorpage") ? "$active": ""; echo '">
-                   <a class="nav-link" href="./index.php?content=moderatorpage">Moderatorpage</a>
+                   <a class="nav-link" href="./index.php?content=User-Paginas\moderatorpage">Moderatorpage</a>
                 </li>';
         break;
         case 'customer': 
-          echo '<li class="nav-item'; echo ($active == "moderatorpage") ? "$active": ""; echo '">
-                  <a class="nav-link" href="./index.php?content=c-account">Customerpage</a>
+          echo '<li class="nav-item'; echo ($active == "c-account") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\c-account">Customerpage</a>
+                </li>';
+        break;
+        case 'kok': 
+          echo '<li class="nav-item'; echo ($active == "kokpagina") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\kokpagina">Kokpagina</a>
+                </li>';
+        break;
+        case 'barman': 
+          echo '<li class="nav-item'; echo ($active == "barmanpagina") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\barmanpagina">Barmanpagina</a>
+                </li>';
+        break;
+        case 'ober': 
+          echo '<li class="nav-item'; echo ($active == "oberpagina") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\oberpagina">Oberpagina</a>
                 </li>';
         break;
         default:

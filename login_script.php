@@ -36,20 +36,29 @@
                                     
                                     switch($record["userrole"]) {
                                         case 'customer':
-                                            header("Location: ./index.php?content=c-home");   
+                                            header("Location: ./index.php?content=User-Homes\c-home");   
                                         break; 
-                                        case 'root':
-                                            header("Location: ./index.php?content=r-home");   
+                                        case 'kok':
+                                            header("Location: ./index.php?content=User-Homes\k-home");   
+                                        break; 
+                                        case 'barman':
+                                            header("Location: ./index.php?content=User-Homes\b-home");   
+                                        break; 
+                                        case 'ober':
+                                            header("Location: ./index.php?content=User-Homes\o-home");   
                                         break; 
                                         case 'admin':
-                                            header("Location: ./index.php?content=a-home");   
+                                            header("Location: ./index.php?content=User-Homes\a-home");   
                                         break; 
                                         case 'moderator':
-                                            header("Location: ./index.php?content=m-home");   
+                                            header("Location: ./index.php?content=User-Homes\m-home");   
+                                        break; 
+                                        case 'root':
+                                            header("Location: ./index.php?content=User-Homes/r-home");   
                                         break; 
                                         default:
                                             header("Location: ./index.php?content=home");   
-                                        break; 
+                                        break;
                                     }
 
 
