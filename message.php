@@ -135,11 +135,16 @@
        break;
        case "reservatie-success" :    
         echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-            U heeft successvol gereserveerd, wij wensen u van harte welkom.
+            U hebt succesvol gereserveerd. U word nu terug gestuurd naar de homepagina
             </div>';
         header("Refresh: 5; ./index.php?content=home");
-        break;
-
+            break;
+            case "emptyfield" :    
+                echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+                       U hebt een of meerdere velden leeg gelaten, probeer het opnieuw...
+                      </div>';
+                header("Refresh: 3; ./index.php?content=reservation");
+            break;
         default:
             header("Location: ./index.php?content=home");
         break;
