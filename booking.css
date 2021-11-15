@@ -1,5 +1,13 @@
+<<<<<<< Updated upstream
 .container {
     position: relative;
+=======
+.bottomright {
+    position: fixed;
+    bottom: -350px;
+    right: -20px;
+    size: 10px;
+>>>>>>> Stashed changes
   }
   
   .topright {
