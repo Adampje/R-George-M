@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="menu.css">
 <div class="contact-text">
 <h3 >Contact</h3>
-<small style=" font-family:'Chalkboard SE', 'Comic Neue', sans-serif;;"> Elke dag geopend vanaf 10:00 tot 00:00 </small>
+<small style="font-family: 'Montserrat', sans-serif;"> Elke dag geopend vanaf 10:00 tot 00:00 </small>
 <h3>_________________________</h3>
 
 <h4>E-mail: contact@georgemarina.nl</h4>
