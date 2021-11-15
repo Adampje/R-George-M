@@ -7,8 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="tableinformation.css">
 
     <title>GeorgeMarina</title>
   </head> 
@@ -17,20 +16,20 @@
     <div class="container">
   <div class="row">
     <div class="col-sm">
-    <img id="img1" src="img\george1.png" alt="george1" style="width:1000px; padding-top: 75px;">
+    <img id="img1" src="img\george2.jpg" alt="george1" style="width:1000px; padding-top: 75px;">
     </div>
     <div id="text" style="padding-top: 100px; padding-left: 50px;">
     
     <div>   
-         Vanaf kleins af aan had ik een droom om een restaurant te openen met mijn broer.
+         Hier kunt u informtie zien over de tafels in onze restaurant.
     </div>
 
     <div style="padding-top: 25px;">
-    Ons doel is om zoveel mogelijk mensen proberen te voeden tegen een betaalbare prijs, de reden hiervoor is omdat ik en mijn broer het krap hadden sinds kleins af aan en willen ook de mensen voeden die het niet zo breed hebben.
+        Als u een tafel wilt reserveren kunt u ons bellen of e-mailen via de contact pagina hieronder.
     </div>
 
     <div style="padding-top: 25px;">
-    We zijn begonnen in 2013 en sinds dien hebben we veel positieve reacties gekregen, wat ervoor zorgte dat we een artikel kregen in de Parabool.
+    <a href="./index.php?content=contact" class="btn btn-outline-secondary"role="button" aria-pressed="true">Contact</a>
     </div>
 
 
