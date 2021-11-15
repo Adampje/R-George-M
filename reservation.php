@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,8 +46,6 @@
         <option>bar</option>
       </select>
 
-
-      
 </div>
 <hr style="height:5px;border-width:0;color:black;background-color:white">
 <button type="submit" class="btn btn-outline-dark">Verzenden</button>

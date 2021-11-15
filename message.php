@@ -127,6 +127,19 @@
                   </div>';
             header("Refresh: 3; ./index.php?content=home");
         break;
+        case "emptyfields" :    
+            echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+                   U hebt een of meerdere velden leeg gelaten, probeer het opnieuw...
+                 </div>';
+            header("Refresh: 5; ./index.php?content=reservation");
+        break;
+        case "reservationsucces" :    
+            echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                Succesvol gereserveerd!
+                </div>';
+            header("Refresh: 5; ./index.php?content=home");
+       break;
+
         case "solicitatie-succes" :    
             echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
                 Wij hebben uw solicitatie ontvangen, wij nemen zo snel mogelijk contact met u op!
@@ -139,7 +152,6 @@
             </div>';
         header("Refresh: 5; ./index.php?content=home");
         break;
-
         default:
             header("Location: ./index.php?content=home");
         break;
