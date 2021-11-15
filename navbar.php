@@ -64,7 +64,7 @@
           <a class="nav-link" href="./index.php?content=aboutus">About us</a>
         </li>
         <li class="nav-item <?php echo ($active == "reservation")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=reservation">Reservation</a>
+          <a class="nav-link" href="./index.php?content=reservation">Reservatie</a>
         </li>
         <li class="nav-item <?php echo ($active == "bookingpage")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=bookingpage">Book Event</a>
@@ -73,18 +73,19 @@
           <a class="nav-link" href="./index.php?content=corona">Covid-19</a>
         </li>
         <li class="nav-item <?php echo ($active == "table-information")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=table-information">Tables</a>
+          <a class="nav-link" href="./index.php?content=table-information">Tafels</a>
         </li>
         <li class="nav-item <?php echo ($active == "carreer")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=carreer">Solliciteren</a>
+          <a class="nav-link" href="./index.php?content=carreer">Vacatures</a>
         </li>
         <li class="nav-item <?php echo ($active == "gallery")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=gallery">Gallery</a>
+          <a class="nav-link" href="./index.php?content=gallery">Gallerij</a>
         </li>
         <li class="nav-item <?php echo ($active == "contact")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=contact">Contact</a>
         </li>
         </li>
+        
      
         </ul> 
 
