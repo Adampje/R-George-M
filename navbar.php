@@ -76,7 +76,7 @@
           <a class="nav-link" href="./index.php?content=table-information">Tafels</a>
         </li>
         <li class="nav-item <?php echo ($active == "carreer")? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=carreer">Vacatures</a>
+          <a class="nav-link" href="./index.php?content=carreer">Solliciteren</a>
         </li>
         <li class="nav-item <?php echo ($active == "gallery")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=gallery">Gallerij</a>

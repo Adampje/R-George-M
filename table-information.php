@@ -21,18 +21,18 @@
     <div class="col-sm">
     <img id="img1" src="img\george2.jpg" alt="george1" style="width:1000px; padding-top: 75px;">
     </div>
-    <div id="text" style="padding-top: 100px; padding-left: 50px;">
+    <div id="text" style="padding-top: 100px; padding-left: 50px; bottom: 60% ">
     
     <div>   
          Hier kunt u informtie zien over de tafels in onze restaurant.
     </div>
 
     <div style="padding-top: 25px;">
-        Als u een tafel wilt reserveren kunt u ons bellen of e-mailen via de contact pagina hieronder.
+        Als u een tafel wilt reserveren kan dat via de reserveer pagina hieronder.
     </div>
 
     <div style="padding-top: 25px;">
-    <a href="./index.php?content=contact" class="btn btn-outline-secondary"role="button" aria-pressed="true">Contact</a>
+    <a href="./index.php?content=reservation" class="btn btn-outline-secondary"role="button" aria-pressed="true">Reserveren</a>
     </div>
 
 
