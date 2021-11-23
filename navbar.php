@@ -50,17 +50,19 @@
                       <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\c-home">Home</a>
                     </li>';
             break; 
-           
             default:
             break;
           }
         } else {
+          
           echo '<li class="nav-item'; echo (in_array($active, ["home", ""]))? "active": ""; echo '">
                   <a class="logo" aria-current="page" href="./index.php?content=home"><img src="./img/GeorgeMarina.png"</a>
                 </li>';
         }
+        
         ?>
         
+           <?php if (!isset($_SESSION) || empty($_SESSION)) : ?> 
         <li class="nav-item <?php echo ($active == "menu")? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=menu">Menu</a>
         </li>
@@ -93,6 +95,12 @@
         
      
         </ul> 
+        <?php endif; ?>
+            
+        
+            </ul> 
+
+    
 
 
 
