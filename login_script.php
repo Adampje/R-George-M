@@ -59,6 +59,9 @@
                                         case 'student':
                                             header("Location: ./index.php?content=User-Homes/s-home");   
                                         break; 
+                                        case 'begeleider':
+                                            header("Location: ./index.php?content=User-Homes/be-home");   
+                                        break; 
                                         default:
                                             header("Location: ./index.php?content=home");   
                                         break;

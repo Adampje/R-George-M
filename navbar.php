@@ -45,6 +45,11 @@
                       <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\s-home">Home</a>
                     </li>';
             break; 
+            case 'begeleider': 
+              echo '<li class="nav-item'; echo (in_array($active, ["e-home", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\be-home">Home</a>
+                    </li>';
+            break; 
             case 'customer': 
               echo '<li class="nav-item'; echo (in_array($active, ["c-home", ""]))? "active": ""; echo '">
                       <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\c-home">Home</a>
@@ -146,6 +151,11 @@
         case 'student': 
           echo '<li class="nav-item'; echo ($active == "studentpagina") ? "$active": ""; echo '">
                   <a class="nav-link" href="./index.php?content=User-Paginas\studentpagina">Studentpagina</a>
+                </li>';
+        break;
+        case 'begeleider': 
+          echo '<li class="nav-item'; echo ($active == "persoonlijke-info") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\persoonlijkeinfo">Persoonlijke-Info</a>
                 </li>';
         break;
         default:
