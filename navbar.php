@@ -148,6 +148,11 @@
                   <a class="nav-link" href="./index.php?content=User-Paginas\studentpagina">Studentpagina</a>
                 </li>';
         break;
+        case 'docent': 
+          echo '<li class="nav-item'; echo ($active == "docentpagina") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\docentpagina">docentpagina</a>
+                </li>';
+        break;
         default:
         break;
       }
