@@ -2,9 +2,6 @@
 
  include("./connect_db.php");
 
-
-
-
   $Voornaam = ($_POST["Voornaam"]);
   $Achternaam = ($_POST["Achternaam"]);
   $personen = ($_POST["personen"]);

@@ -54,7 +54,7 @@
 
 <body>
 
-    <form action="./index.php?content=ziekmelden_script.php" method="post">
+    <form action="./index.php?content=ziekmelden_script" method="post">
     <div class="container mt-5">
         <div class="center col-12 col-sm-6 name-item">
             <label for="InputVolledigenaam" class="form-label"></label>
