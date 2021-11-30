@@ -2,9 +2,9 @@
 
  include("./connect_db.php");
 
-  $volledigenaam = ($_POST["volledigenaam"]);
+  $volledigenaam= ($_POST["volledigenaam"]);
   $leerlingnummer = ($_POST["leerlingnummer"]);
-  $geboortedatum = ($_POST["geboortedatum"]);
+  $geboortedatum 	 = ($_POST["geboortedatum"]);
   
 // Dit is de sql-query die de ingevulde gegevens wegschrijft naar de tabel nummers
 $sql = "INSERT INTO `ziekmelden` (`id`, `volledigenaam`, `leerlingnummer`, `geboortedatum`) VALUES (NULL, '$volledigenaam', '$leerlingnummer', '$geboortedatum')"; 
