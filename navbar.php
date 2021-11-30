@@ -46,9 +46,15 @@
                     </li>';
             break; 
             case 'begeleider': 
-              echo '<li class="nav-item'; echo (in_array($active, ["e-home", ""]))? "active": ""; echo '">
+              echo '<li class="nav-item'; echo (in_array($active, ["b-home", ""]))? "active": ""; echo '">
                       <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\be-home">Home</a>
                     </li>';
+              echo '<li class="nav-item'; echo (in_array($active, ["b-studenteninfo", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Paginas\b-studenteninfo">Studenten</a>
+                    </li>';
+              echo '<li class="nav-item'; echo (in_array($active, ["b-collegasinfo", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Paginas\b-collegasinfo">Collegas</a>
+                   </li>';
             break; 
             case 'customer': 
               echo '<li class="nav-item'; echo (in_array($active, ["c-home", ""]))? "active": ""; echo '">
@@ -154,8 +160,8 @@
                 </li>';
         break;
         case 'begeleider': 
-          echo '<li class="nav-item'; echo ($active == "persoonlijke-info") ? "$active": ""; echo '">
-                  <a class="nav-link" href="./index.php?content=User-Paginas\persoonlijkeinfo">Persoonlijke-Info</a>
+          echo '<li class="nav-item'; echo ($active == "b-rooster") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\b-rooster">Rooster</a>
                 </li>';
         break;
         default:
