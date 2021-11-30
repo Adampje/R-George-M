@@ -2,7 +2,7 @@
 include("./connect_db.php");
 
 // Dit is de select query voor het opvragen van alle records uit de tabel users.
-$sql = "SELECT * FROM `rooster`";
+$sql = "SELECT * FROM `docentrooster`";
 
 // Dit is de functie edie de query $sql via de verbinding $conn naar de database stuurt.
 
