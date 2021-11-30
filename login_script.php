@@ -65,6 +65,9 @@
                                         case 'begeleider':
                                             header("Location: ./index.php?content=User-Homes/be-home");   
                                         break; 
+                                        case 'eigenaar':
+                                            header("Location: ./index.php?content=User-Homes/be-home");   
+                                        break; 
                                         default:
                                             header("Location: ./index.php?content=home");   
                                         break;

@@ -73,6 +73,14 @@
                       <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\d-home">Home</a>
                     </li>';
             break; 
+            case 'eigenaar': 
+              echo '<li class="nav-item'; echo (in_array($active, ["e-home", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\e-home">Home</a>
+                    </li>';
+              echo '<li class="nav-item'; echo (in_array($active, ["b-rooster", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Paginas\b-rooster">Begeleiderrooster</a>
+                    </li>';
+            break; 
             default:
             break;
           }
@@ -180,6 +188,11 @@
         case 'docent': 
           echo '<li class="nav-item'; echo ($active == "docentpagina") ? "$active": ""; echo '">
                   <a class="nav-link" href="./index.php?content=User-Paginas\d-rooster">Rooster</a>
+                </li>';
+        break;
+        case 'eigenaar': 
+          echo '<li class="nav-item'; echo ($active == "eigenaarpagina") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\eigenaarpagina">Eigenaarpagina</a>
                 </li>';
         break;
         default:
