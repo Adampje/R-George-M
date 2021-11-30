@@ -50,6 +50,11 @@
                       <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\c-home">Home</a>
                     </li>';
             break; 
+            case 'docent': 
+              echo '<li class="nav-item'; echo (in_array($active, ["c-home", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\d-home">Home</a>
+                    </li>';
+            break; 
             default:
             break;
           }
