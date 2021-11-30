@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 26, 2021 at 01:25 PM
--- Server version: 5.7.31
--- PHP Version: 7.3.21
+-- Gegenereerd op: 30 nov 2021 om 12:58
+-- Serverversie: 5.7.31
+-- PHP-versie: 7.3.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,81 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `register`
+-- Tabelstructuur voor tabel `begeleidersrooster`
+--
+
+DROP TABLE IF EXISTS `begeleidersrooster`;
+CREATE TABLE IF NOT EXISTS `begeleidersrooster` (
+  `id` int(11) NOT NULL,
+  `begeleider` varchar(5) NOT NULL,
+  `werkDatum` date NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_BR_Werkdag_idx` (`werkDatum`),
+  KEY `fk_BR_Begeleider_idx` (`begeleider`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `begeleidersrooster`
+--
+
+INSERT INTO `begeleidersrooster` (`id`, `begeleider`, `werkDatum`) VALUES
+(0, 'M.A', '2021-11-26');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `docentrooster`
+--
+
+DROP TABLE IF EXISTS `docentrooster`;
+CREATE TABLE IF NOT EXISTS `docentrooster` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `Week` int(7) NOT NULL,
+  `Datum` date NOT NULL,
+  `Tijd` time NOT NULL,
+  `lokaal` varchar(4) NOT NULL,
+  `Klas` varchar(4) NOT NULL,
+  `userrole` enum('root','admin','customer','moderator','kok','barman','ober','student','docent') NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `docentrooster`
+--
+
+INSERT INTO `docentrooster` (`id`, `Week`, `Datum`, `Tijd`, `lokaal`, `Klas`, `userrole`) VALUES
+(1, 1, '2021-11-21', '08:30:00', '3.12', 'CK1A', 'docent'),
+(2, 1, '2021-11-21', '09:30:00', '3.27', 'CK1B', 'docent');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `medewerker`
+--
+
+DROP TABLE IF EXISTS `medewerker`;
+CREATE TABLE IF NOT EXISTS `medewerker` (
+  `email` varchar(100) NOT NULL,
+  `achternaam` varchar(45) NOT NULL,
+  `tussenvoegsel` varchar(10) DEFAULT NULL,
+  `voornaam` varchar(45) NOT NULL,
+  `mobiel` varchar(10) NOT NULL,
+  `afkorting` varchar(5) NOT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `medewerker`
+--
+
+INSERT INTO `medewerker` (`email`, `achternaam`, `tussenvoegsel`, `voornaam`, `mobiel`, `afkorting`) VALUES
+('326758@docent.georgemarina.nl', 'Bacha', NULL, 'Adam', '0612345678', 'A.B'),
+('330180@begeleider.georgemarina.nl', 'Amhaini', NULL, 'Moemin', '0612345678', 'M.A');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `register`
 --
 
 DROP TABLE IF EXISTS `register`;
@@ -32,13 +106,13 @@ CREATE TABLE IF NOT EXISTS `register` (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `email` varchar(300) NOT NULL,
   `password` varchar(60) NOT NULL,
-  `userrole` enum('root','admin','customer','moderator','kok','barman','ober','student') NOT NULL,
+  `userrole` enum('root','admin','customer','moderator','kok','barman','ober','student','begeleider','docent','eigenaar') NOT NULL,
   `activated` tinyint(3) UNSIGNED NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `register`
+-- Gegevens worden geëxporteerd voor tabel `register`
 --
 
 INSERT INTO `register` (`id`, `email`, `password`, `userrole`, `activated`) VALUES
@@ -49,12 +123,15 @@ INSERT INTO `register` (`id`, `email`, `password`, `userrole`, `activated`) VALU
 (27, 'barman@student.georgemarina.nl', '$2y$10$Oa0hVolLOF7mUBV4SzMO5eGr/Fo3LX98wgPgXQNLwPFcxFj5nyqcy', 'barman', 1),
 (28, 'ober@student.georgemarina.nl', '$2y$10$V6IC6w8qDZw5TP8jVB4Yr.BkvO2Lw9du/GjZ9jAj0rSmHDL3ndhiG', 'ober', 1),
 (29, 'r@r', '$2y$10$00H1vC1.kfIVR1LL3pO4...BtkywTTAbUORUJsAU69lPjLQS5gKL2', 'root', 1),
-(30, '331509@student.georgemarina.nl', '$2y$10$oEpY1GScgUf6HAbmhlVmcOUyob8MQoQXB97BxsFBEnV23.n4/D9vC', 'student', 1);
+(30, '331509@student.georgemarina.nl', '$2y$10$oEpY1GScgUf6HAbmhlVmcOUyob8MQoQXB97BxsFBEnV23.n4/D9vC', 'student', 1),
+(33, '330180@begeleider.georgemarina.nl', '$2y$10$ebRI2w5oV4tnW.EwsiLx9uTKIBRmm87IT9l5HOh1pw6cWit1zZ7xe', 'begeleider', 1),
+(34, '326758@docent.georgemarina.nl', '$2y$10$TMwo.z3S8NDwWjLrE5R.AeXjRDfQVzvswsjfADQInw9tIODB1hES6', 'docent', 1),
+(35, '329918@eigenaar.georgemarina.nl', '$2y$10$l6g6ILIyBjV2ySMeaJzKuuZndxQTnkc9Gzao/JbZ/L8IIrmZnaS4a', 'eigenaar', 1);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `reserveren`
+-- Tabelstructuur voor tabel `reserveren`
 --
 
 DROP TABLE IF EXISTS `reserveren`;
@@ -68,7 +145,7 @@ CREATE TABLE IF NOT EXISTS `reserveren` (
 ) ENGINE=MyISAM AUTO_INCREMENT=29 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `reserveren`
+-- Gegevens worden geëxporteerd voor tabel `reserveren`
 --
 
 INSERT INTO `reserveren` (`id`, `Voornaam`, `Achternaam`, `personen`, `tafelofbar`) VALUES
@@ -80,7 +157,7 @@ INSERT INTO `reserveren` (`id`, `Voornaam`, `Achternaam`, `personen`, `tafelofba
 -- --------------------------------------------------------
 
 --
--- Table structure for table `rol`
+-- Tabelstructuur voor tabel `rol`
 --
 
 DROP TABLE IF EXISTS `rol`;
@@ -91,7 +168,7 @@ CREATE TABLE IF NOT EXISTS `rol` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `rol`
+-- Gegevens worden geëxporteerd voor tabel `rol`
 --
 
 INSERT INTO `rol` (`rol`, `omschrijving`) VALUES
@@ -104,7 +181,7 @@ INSERT INTO `rol` (`rol`, `omschrijving`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `soliciteren`
+-- Tabelstructuur voor tabel `soliciteren`
 --
 
 DROP TABLE IF EXISTS `soliciteren`;
@@ -118,13 +195,60 @@ CREATE TABLE IF NOT EXISTS `soliciteren` (
 ) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `soliciteren`
+-- Gegevens worden geëxporteerd voor tabel `soliciteren`
 --
 
 INSERT INTO `soliciteren` (`id`, `volledigenaam`, `email`, `telefoonnummer`, `positie`) VALUES
 (8, 'barthe jasmijn', 'barthe@gmail.com', 61108348, '2'),
 (9, 'test', 'test@testt', 612345678, '5'),
 (10, 'test', '123@hotmial.com', 23, '1');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `student`
+--
+
+DROP TABLE IF EXISTS `student`;
+CREATE TABLE IF NOT EXISTS `student` (
+  `studentnr` int(11) NOT NULL,
+  `voornaam` varchar(45) NOT NULL,
+  `tussenvoegsel` varchar(25) DEFAULT NULL,
+  `achternaam` varchar(45) NOT NULL,
+  `mobiel` varchar(10) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `woonplaats` varchar(45) NOT NULL,
+  `straat` varchar(60) NOT NULL,
+  `postcode` varchar(7) NOT NULL,
+  `rol` varchar(25) NOT NULL DEFAULT 'student',
+  `docent` varchar(5) NOT NULL,
+  PRIMARY KEY (`studentnr`),
+  UNIQUE KEY `email_UNIQUE` (`email`),
+  KEY `fk_Student_Rol_idx` (`rol`),
+  KEY `fk_Student_Docent_idx` (`docent`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `student`
+--
+
+INSERT INTO `student` (`studentnr`, `voornaam`, `tussenvoegsel`, `achternaam`, `mobiel`, `email`, `woonplaats`, `straat`, `postcode`, `rol`, `docent`) VALUES
+(331509, 'Ryan', NULL, 'Lamsberg', '0612345678', '331509@student.georgemarina.nl', 'Amsterdam', 'straat 147', '0000AA', 'student', 'Taif');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `ziekmelden`
+--
+
+DROP TABLE IF EXISTS `ziekmelden`;
+CREATE TABLE IF NOT EXISTS `ziekmelden` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `volledigenaam` varchar(300) NOT NULL,
+  `leerlingnummer` int(60) NOT NULL,
+  `geboortedatum` varchar(300) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
