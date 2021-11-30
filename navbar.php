@@ -44,6 +44,13 @@
               echo '<li class="nav-item'; echo (in_array($active, ["s-home", ""]))? "active": ""; echo '">
                       <a class="nav-link" aria-current="page" href="./index.php?content=User-Homes\s-home">Home</a>
                     </li>';
+              echo '<li class="nav-item'; echo ($active == "studentpagina") ? "$active": ""; echo '">
+                  <a class="nav-link" href="./index.php?content=User-Paginas\studentpagina">Studentpagina</a>
+                </li>';
+              echo '<li class="nav-item'; echo ($active == "ziekmelden") ? "$active": ""; echo '">
+                <a class="nav-link" href="./index.php?content=ziekmelden">Ziekmelden</a>
+              </li>';
+              
             break; 
             case 'begeleider': 
               echo '<li class="nav-item'; echo (in_array($active, ["b-home", ""]))? "active": ""; echo '">
@@ -163,6 +170,7 @@
           echo '<li class="nav-item'; echo ($active == "studentpagina") ? "$active": ""; echo '">
                   <a class="nav-link" href="./index.php?content=User-Paginas\studentpagina">Studentpagina</a>
                 </li>';
+          
         break;
         case 'begeleider': 
           echo '<li class="nav-item'; echo ($active == "b-rooster") ? "$active": ""; echo '">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 16, 2021 at 03:12 PM
+-- Generation Time: Nov 26, 2021 at 01:25 PM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -32,10 +32,10 @@ CREATE TABLE IF NOT EXISTS `register` (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `email` varchar(300) NOT NULL,
   `password` varchar(60) NOT NULL,
-  `userrole` enum('root','admin','customer','moderator','kok','barman','ober') NOT NULL,
+  `userrole` enum('root','admin','customer','moderator','kok','barman','ober','student') NOT NULL,
   `activated` tinyint(3) UNSIGNED NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `register`
@@ -48,7 +48,8 @@ INSERT INTO `register` (`id`, `email`, `password`, `userrole`, `activated`) VALU
 (26, 'kok@student.georgemarina.nl', '$2y$10$1QQficYkKMCwCu9FWeFqvu8PaZE/Efbxy3GOQBNOzzwE2ZqNEYpFi', 'kok', 1),
 (27, 'barman@student.georgemarina.nl', '$2y$10$Oa0hVolLOF7mUBV4SzMO5eGr/Fo3LX98wgPgXQNLwPFcxFj5nyqcy', 'barman', 1),
 (28, 'ober@student.georgemarina.nl', '$2y$10$V6IC6w8qDZw5TP8jVB4Yr.BkvO2Lw9du/GjZ9jAj0rSmHDL3ndhiG', 'ober', 1),
-(29, 'r@r', '$2y$10$00H1vC1.kfIVR1LL3pO4...BtkywTTAbUORUJsAU69lPjLQS5gKL2', 'root', 1);
+(29, 'r@r', '$2y$10$00H1vC1.kfIVR1LL3pO4...BtkywTTAbUORUJsAU69lPjLQS5gKL2', 'root', 1),
+(30, '331509@student.georgemarina.nl', '$2y$10$oEpY1GScgUf6HAbmhlVmcOUyob8MQoQXB97BxsFBEnV23.n4/D9vC', 'student', 1);
 
 -- --------------------------------------------------------
 

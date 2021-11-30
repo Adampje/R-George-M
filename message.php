@@ -132,7 +132,18 @@
                 Wij hebben uw solicitatie ontvangen, wij nemen zo snel mogelijk contact met u op!
                 </div>';
             header("Refresh: 5; ./index.php?content=carreer");
+        case "dienstverzoek-succes" :    
+            echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                Wij hebben jouw dienstverzoek ontvangen!
+                </div>';
+            header("Refresh: 5; ./index.php?content=studentpagina");
        break;
+       case "ziekmelden-succes" :    
+        echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+            Wij hebben jouw ziekmelding ontvangen!
+            </div>';
+        header("Refresh: 5; ./index.php?content=ziekmelden");
+   break;
        case "reservatie-success" :    
         echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
             U hebt succesvol gereserveerd. U word nu terug gestuurd naar de homepagina
