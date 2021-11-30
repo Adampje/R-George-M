@@ -1,6 +1,6 @@
 <?php
     include("./functions.php");
-    is_authorized(["admin", "root", "moderator"]);
+    is_authorized(["admin", "root", "moderator", "student"]);
 
 ?>
 
