@@ -33,7 +33,7 @@ $sql = "SELECT * FROM `docentrooster`";
       <th scope="col">Datum</th>
       <th scope="col">Tijd</th>
       <th scope="col">Lokaal</th>
-      <th scope="col">Klas</th>
+      <th scope="col">Vak</th>
     </tr>
   </thead>
   <?php
