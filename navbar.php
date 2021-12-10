@@ -59,6 +59,9 @@
               echo '<li class="nav-item'; echo (in_array($active, ["b-collegasinfo", ""]))? "active": ""; echo '">
                       <a class="nav-link" aria-current="page" href="./index.php?content=User-Paginas\b-collegasinfo">Collegas</a>
                    </li>';
+              echo '<li class="nav-item'; echo (in_array($active, ["b-reserveringen", ""]))? "active": ""; echo '">
+                      <a class="nav-link" aria-current="page" href="./index.php?content=User-Paginas\b-reserveringen">Reservering-Overzicht</a>
+                   </li>';
             break; 
             case 'customer': 
               echo '<li class="nav-item'; echo (in_array($active, ["c-home", ""]))? "active": ""; echo '">
