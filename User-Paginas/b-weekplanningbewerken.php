@@ -60,12 +60,32 @@
           </tr> 
         </div>
         <br>
+<!-- Datum les -->
         <div class="center col-12 col-sm-6 name-item">
-            <label for="InputEmail" class="form-label"></label>
-            <input name="email" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="E-mailadress*" required autofocus/>
-            <div id="emailHelp" class="form-text text-muted"></div>
+            <label for="Datum" class="form-label"></label>
+            <input name="datum" type="datum" class="form-control" id="datum" aria-describedby="datum" placeholder="Wanneer is deze les?" required autofocus/>
+            <div id="datum" class="form-text text-muted"></div>
         </div>
-        <br>
+<!-- Hoe laat is de les -->
+        <div class="center col-12 col-sm-6 name-item">
+            <label for="Tijd" class="form-label"></label>
+            <input name="Tijd" type="Tijd" class="form-control" id="Tijd" aria-describedby="Tijd" placeholder="Hoe laat is deze les?" required autofocus/>
+            <div id="Tijd" class="form-text text-muted"></div>
+        </div>
+
+<!-- Welk vak is dit -->
+<div class="center col-12 col-sm-6 name-item">
+            <label for="vak" class="form-label"></label>
+            <input name="vak" type="vak" class="form-control" id="vak" aria-describedby="vak" placeholder="Welk vak is dit?" required autofocus/>
+            <div id="vak" class="form-text text-muted"></div>
+        </div>
+<!-- Eventuele commentaar voor de les -->
+<div class="center col-12 col-sm-6 name-item">
+            <label for="commentaar" class="form-label"></label>
+            <input name="commentaar" type="commentaar" class="form-control" id="commentaar" aria-describedby="commentaar" placeholder="Voeg commentaar toe" required autofocus/>
+            <div id="commentaar" class="form-text text-muted"></div>
+        </div>
+
         <div class="center col-12 col-sm-6 name-item">
             <label for="InputTelefoonnummer" class="form-label"></label>
             <input name="telefoonnummer" type="name" class="form-control" id="InputTelefoonnummer" aria-describedby="telefoonnummerHelp" placeholder="Telefoonnummer*" required autofocus/>
