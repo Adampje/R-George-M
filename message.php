@@ -156,9 +156,16 @@
                       </div>';
                 header("Refresh: 3; ./index.php?content=reservation");
             break;
+            case "weekplanning-succes" :    
+                echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                    U hebt succesvol de weekplanning geupload. U word nu terug gestuurd naar de homepagina
+                    </div>';
+                header("Refresh: 5; ./index.php?content=home");
+            break;
         default:
             header("Location: ./index.php?content=home");
         break;
+        
     }
 
 
