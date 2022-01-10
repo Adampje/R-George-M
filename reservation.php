@@ -16,12 +16,20 @@
 
 <form action="./create.php" method="post">
   <div class="col-12 col-sm-4">
-    <label for="formGroupExampleInput">Voornaam</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder=". . ." 
-    id="Voornaam" name="Voornaam" autofocus maxlength="20" >
-    <label for="formGroupExampleInput2">Achternaam</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder=". . ."
-    id="Achternaam" name="Achternaam" maxlength="20">
+   
+  <label for="name">Naam</label>
+    <input type="text" class="form-control" id="name" placeholder=". . ." 
+    id="Naam" name="Naam" autofocus maxlength="20" >
+    
+    <label for="phone">Telefoonnummer</label>
+    <input type="tel" class="form-control" id="phone" placeholder=". . ."
+    id="telefoonnummer" name="telefoonnummer" maxlength="20">
+
+    <label for="date">Datum</label>
+    <input type="datetime-local" class="form-control" id="date" placeholder=". . ."
+    id="datumoftijd" name="datumoftijd" maxlength="20">
+
+
   </div>
   <div class="form-group col-md-4">
       <label for="inputState">personen</label>
