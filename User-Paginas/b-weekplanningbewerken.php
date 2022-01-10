@@ -82,17 +82,17 @@
     <form action="./index.php?content=User-Scripts\b-weekplanning_script" method="post">
     <div class="container mt-5">
 
-<!-- Datum les -->
+<!-- Datum -->
         <div class="center col-12 col-sm-6 name-item">
             <label for="datum" class="form-label"></label>
-            <input name="datum" type="datum" class="form-control" id="datum" aria-describedby="datum" placeholder="Wanneer is deze les?" required autofocus/>
+            <input name="datum" type="date" class="form-control" id="datum" aria-describedby="datum" placeholder="Wanneer is deze les?" required autofocus/>
             <div id="datum" class="form-text text-muted"></div>
         </div>
         
 <!-- Hoe laat is de les -->
         <div class="center col-12 col-sm-6 name-item">
             <label for="tijd" class="form-label"></label>
-            <input name="tijd" type="tijd" class="form-control" id="tijd" aria-describedby="tijd" placeholder="Hoe laat is deze les?" required autofocus/>
+            <input name="tijd" type="time" class="form-control" id="tijd" aria-describedby="tijd" placeholder="Hoe laat is deze les?" required autofocus/>
             <div id="tijd" class="form-text text-muted"></div>
         </div>
 

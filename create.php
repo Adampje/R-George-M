@@ -16,8 +16,8 @@
 $sql = "INSERT INTO `reserveren` (`id`, `Voornaam`, `Achternaam`, `personen`, `tafelofbar`) VALUES (NULL, '$Voornaam', '$Achternaam', '$personen', '$tafelofbar')"; 
 
 
-// echo $sql; exit();
-// Dit is de funcit edie de query $sql via de verbinding $conn naar de database stuurt.
+echo $sql; exit();
+// Dit is de functie die de query $sql via de verbinding $conn naar de database stuurt.
 mysqli_query($conn, $sql);
 
 header("Location: ./index.php?content=message&alert=reservatie-success");
