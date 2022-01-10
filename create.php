@@ -2,24 +2,27 @@
 
  include("./connect_db.php");
 
-  $Voornaam = ($_POST["Voornaam"]);
-  $Achternaam = ($_POST["Achternaam"]);
-  $personen = ($_POST["personen"]);
-  $tafelofbar = ($_POST["tafelofbar"]);
   
+ $Naam = ($_POST["Naam"]);
+ $telefoonnummer = ($_POST["telefoonnummer"]);
+ $personen = ($_POST["personen"]);
+ $tafelofbar = ($_POST["tafelofbar"]);
+ $datumoftijd = ($_POST["datumoftijd"]);
 
-  if (empty($Voornaam) || empty($Achternaam)|| empty($personen) || empty($tafelofbar)) {
-    // Check of de loginformvelden zijn ingevuld...
-    header("Location: ./index.php?content=message&alert=emptyfield");
+if (empty($Naam) || empty($telefoonnummer)|| empty($personen) || empty($tafelofbar) || empty($datumoftijd)) {
+  // Check of de loginformvelden zijn ingevuld...
+  header("Location: ./index.php?content=message&alert=emptyfield");
 } else {
 // Dit is de sql-query die de ingevulde gegevens wegschrijft naar de tabel nummers
-$sql = "INSERT INTO `reserveren` (`id`, `Voornaam`, `Achternaam`, `personen`, `tafelofbar`) VALUES (NULL, '$Voornaam', '$Achternaam', '$personen', '$tafelofbar')"; 
+$sql = "INSERT INTO `reserveren` (`id`, `Naam`, `telefoonnummer`, `personen`, `tafelofbar`, `datumoftijd`) VALUES (NULL, '$Naam','$telefoonnummer', '$personen', '$tafelofbar', '$datumoftijd')"; 
 
-
-// echo $sql; exit();
-// Dit is de funcit edie de query $sql via de verbinding $conn naar de database stuurt.
-mysqli_query($conn, $sql);
+//  
+// Dit is de functie die de query $sql via de verbinding $conn naar de database stuurt.
+$succes=mysqli_query($conn, $sql);
+// var_dump($succes);
 
 header("Location: ./index.php?content=message&alert=reservatie-success");
 }
 ?>
+
+ 

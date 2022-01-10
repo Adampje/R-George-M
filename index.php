@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon">
+
   <title>GeorgeMarina</title>
+  
 </head>
 
 <body>
