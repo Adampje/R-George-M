@@ -44,10 +44,16 @@ while ($record = mysqli_fetch_assoc($result)){
         <thead>
           <tr>
             <th scope="col">id</th>
+<<<<<<< Updated upstream
             <th scope="col">Voornaam</th>
             <th scope="col">Achternaam</th>
+=======
+            <th scope="col">Naam</th>
+            <th scope="col">Tel</th>
+>>>>>>> Stashed changes
             <th scope="col">Personen</th>
-            <th scope="col">Tafel | bar</th>
+            <th scope="col">Tafel | Bar</th>
+            <th scope="col">Datum / Tijd</th>
             <th scope="col"></th>
             <th scope="col"></th>
           </tr>
