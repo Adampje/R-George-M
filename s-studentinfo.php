@@ -27,7 +27,7 @@ $sql = "SELECT * FROM student";
             <td>"  . $record["docent"] . "</td>
             <td>
             <a href='./s-studentinfo_update.php?id=" . $record["id"] . "'>
-                <img src='img\icons\edit.png' alt='pencil'>
+                <img src='img\icons/edit.png' alt='pencil'>
             </a>
             </td>
             </tr>";
