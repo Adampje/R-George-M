@@ -16,10 +16,11 @@ $records = "";
 while ($record = mysqli_fetch_assoc($result)){
     $records .= "<tr>
                   <th scope='row'>" . $record["id"] . "</th>
-                <td>" . $record["Voornaam"] . "</td>  
-                <td>" . $record["Achternaam"] . "</td>
+                <td>" . $record["Naam"] . "</td>  
+                <td>" . $record["telefoonnummer"] . "</td>
                 <td>" . $record["personen"] . "</td>
                 <td>" . $record["tafelofbar"] . "</td>
+                <td>" . $record["datumoftijd"] . "</td>
                 <td>
               </td>
             </tr>";
@@ -44,10 +45,11 @@ while ($record = mysqli_fetch_assoc($result)){
         <thead>
           <tr>
             <th scope="col">id</th>
-            <th scope="col">Voornaam</th>
-            <th scope="col">Achternaam</th>
+            <th scope="col">Naam</th>
+            <th scope="col">Tel</th>
             <th scope="col">Personen</th>
-            <th scope="col">Tafel | bar</th>
+            <th scope="col">Tafel | Bar</th>
+            <th scope="col">Datum / Tijd</th>
             <th scope="col"></th>
             <th scope="col"></th>
           </tr>

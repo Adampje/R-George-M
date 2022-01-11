@@ -68,11 +68,11 @@
             <div id="leerlingnummerHelp" class="form-text text-muted"></div>
         </div>
         <br>
-        <div class="center col-12 col-sm-6 name-item">
+        <!-- <div class="center col-12 col-sm-6 name-item">
             <label for="InputGeboortedatum " class="form-label"></label>
-            <input name="geboortedatum " type="date" class="form-control" id="InputGeboortedatum" aria-describedby="geboortedatumHelp" placeholder="Geboortedatum*" required autofocus/>
+            <input name="geboortedatum " type="name" class="form-control" id="InputGeboortedatum" aria-describedby="geboortedatumHelp" placeholder="Geboortedatum*" required autofocus/>
             <div id="geboortedatumHelp" class="form-text text-muted"></div>
-        </div>
+        </div> -->
 
             <div class="btn-block">
                 <button type="nav-link" >Versturen</button>

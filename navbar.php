@@ -47,7 +47,9 @@
               echo '<li class="nav-item'; echo ($active == "ziekmelden") ? "$active": ""; echo '">
                 <a class="nav-link" href="./index.php?content=ziekmelden">Ziekmelden</a>
               </li>';
-              
+              echo '<li class="nav-item'; echo ($active == "s-studentinfo") ? "$active": ""; echo '">
+                <a class="nav-link" href="./index.php?content=s-studentinfo">Informatie</a>
+              </li>';
             break; 
             case 'begeleider': 
               echo '<li class="nav-item'; echo (in_array($active, ["b-home", ""]))? "active": ""; echo '">
